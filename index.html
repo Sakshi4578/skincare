@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GlowCare Beauty - Skincare Store</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="container top-bar-inner">
+        <div class="logo">Glow<span>Care</span></div>
+        <nav class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#categories">Categories</a>
+          <a href="#bestsellers">Bestsellers</a>
+          <a href="#routine">Routines</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="top-actions">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search for products, brands..."
+          />
+          <button class="btn-outline small">Login</button>
+          <button class="icon-btn" aria-label="Cart">
+            🛒
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Up to 40% off • Limited time</p>
+            <h1>Find skincare that actually loves your skin.</h1>
+            <p class="hero-subtitle">
+              Curated clean beauty, dermatologist-approved routines and real
+              results for every skin type.
+            </p>
+            <div class="hero-actions">
+              <a href="#bestsellers" class="btn-primary">Shop Bestsellers</a>
+              <a href="#routine" class="btn-ghost">Build My Routine</a>
+            </div>
+            <div class="hero-meta">
+              <div>
+                <strong>5000+</strong>
+                <span>5-star reviews</span>
+              </div>
+              <div>
+                <strong>100%</strong>
+                <span>Paraben-free</span>
+              </div>
+              <div>
+                <strong>48h</strong>
+                <span>Express delivery</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-image-wrap">
+            <img
+              src="https://images.pexels.com/photos/3737591/pexels-photo-3737591.jpeg?auto=compress&cs=tinysrgb&w=900"
+              alt="Skincare bottles and jars on a tray"
+              class="hero-main-img"
+            />
+            <div class="hero-secondary-grid">
+              <img
+                src="https://images.pexels.com/photos/3735619/pexels-photo-3735619.jpeg?auto=compress&cs=tinysrgb&w=700"
+                alt="Serum dropper and cosmetic jars"
+              />
+              <img
+                src="https://images.pexels.com/photos/3738363/pexels-photo-3738363.jpeg?auto=compress&cs=tinysrgb&w=700"
+                alt="Flatlay of premium skincare products"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CATEGORIES -->
+      <section id="categories" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Shop by concern</h2>
+            <p>Choose what you want to fix, we’ll handle the rest.</p>
+          </div>
+          <div class="category-grid">
+            <article class="category-card">
+              <img
+                src="https://images.pexels.com/photos/3735606/pexels-photo-3735606.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Brightening skincare bottles with citrus"
+              />
+              <h3>Glow & Brightening</h3>
+              <p>Vitamin C, niacinamide and exfoliating toners.</p>
+              <button class="chip">42 products</button>
+            </article>
+            <article class="category-card">
+              <img
+                src="https://images.pexels.com/photos/3738361/pexels-photo-3738361.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Targeted acne treatment products"
+              />
+              <h3>Acne & Blemishes</h3>
+              <p>Salicylic acid, retinoids and gentle gel cleansers.</p>
+              <button class="chip">27 products</button>
+            </article>
+            <article class="category-card">
+              <img
+                src="https://images.pexels.com/photos/3735634/pexels-photo-3735634.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Rich cream jar for dry and sensitive skin"
+              />
+              <h3>Dry & Sensitive</h3>
+              <p>Ceramide moisturisers and barrier repair heroes.</p>
+              <button class="chip">31 products</button>
+            </article>
+            <article class="category-card">
+              <img
+                src="https://images.pexels.com/photos/3735611/pexels-photo-3735611.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Sunscreen tube and sun care products"
+              />
+              <h3>Sun Protection</h3>
+              <p>Lightweight, no-white-cast sunscreens for daily use.</p>
+              <button class="chip">18 products</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- BESTSELLERS -->
+      <section id="bestsellers" class="section section-muted">
+        <div class="container">
+          <div class="section-header">
+            <h2>Bestsellers</h2>
+            <p>Most loved formulas, backed by real reviews.</p>
+          </div>
+          <div class="product-grid">
+            <article class="product-card">
+              <div class="product-img-wrap">
+                <img
+                  src="https://images.pexels.com/photos/3735632/pexels-photo-3735632.jpeg?auto=compress&cs=tinysrgb&w=900"
+                  alt="Hydrating cleanser bottle"
+                />
+                <span class="pill pill-green">New</span>
+              </div>
+              <h3>HydraCloud Gel Cleanser</h3>
+              <p class="product-meta">For: Normal to Oily · pH balanced</p>
+              <p class="product-price">₹699</p>
+              <button class="btn-outline full">Add to Cart</button>
+            </article>
+            <article class="product-card">
+              <div class="product-img-wrap">
+                <img
+                  src="https://images.pexels.com/photos/3735650/pexels-photo-3735650.jpeg?auto=compress&cs=tinysrgb&w=900"
+                  alt="Face serum dropper bottle"
+                />
+                <span class="pill pill-pink">Bestseller</span>
+              </div>
+              <h3>Vitamin C 15% Glow Serum</h3>
+              <p class="product-meta">For: Dullness · Dark spots</p>
+              <p class="product-price">₹899</p>
+              <button class="btn-outline full">Add to Cart</button>
+            </article>
+            <article class="product-card">
+              <div class="product-img-wrap">
+                <img
+                  src="https://images.pexels.com/photos/3735633/pexels-photo-3735633.jpeg?auto=compress&cs=tinysrgb&w=900"
+                  alt="Moisturiser jar"
+                />
+                <span class="pill pill-blue">Hydration</span>
+              </div>
+              <h3>Ceramide Barrier Cream</h3>
+              <p class="product-meta">For: Dry & Sensitive</p>
+              <p class="product-price">₹1,099</p>
+              <button class="btn-outline full">Add to Cart</button>
+            </article>
+            <article class="product-card">
+              <div class="product-img-wrap">
+                <img
+                  src="https://images.pexels.com/photos/3735610/pexels-photo-3735610.jpeg?auto=compress&cs=tinysrgb&w=900"
+                  alt="Sunscreen tube"
+                />
+                <span class="pill pill-gold">SPF 50</span>
+              </div>
+              <h3>UltraLight Daily Sunscreen</h3>
+              <p class="product-meta">For: All skin types · No white cast</p>
+              <p class="product-price">₹799</p>
+              <button class="btn-outline full">Add to Cart</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ROUTINE BUILDER (STATIC) -->
+      <section id="routine" class="section">
+        <div class="container routine-grid">
+          <div>
+            <div class="section-header left">
+              <h2>Build your 3-step routine</h2>
+              <p>Select your skin type and follow the simple steps.</p>
+            </div>
+            <form class="routine-form" onsubmit="return false;">
+              <label for="skinType">Skin type</label>
+              <select id="skinType">
+                <option>Oily</option>
+                <option>Dry</option>
+                <option>Combination</option>
+                <option>Sensitive</option>
+              </select>
+
+              <div class="routine-steps">
+                <div class="routine-step">
+                  <span class="step-number">1</span>
+                  <div>
+                    <h3>Cleanse</h3>
+                    <p>Gentle, pH-balanced cleanser to reset your skin.</p>
+                  </div>
+                </div>
+                <div class="routine-step">
+                  <span class="step-number">2</span>
+                  <div>
+                    <h3>Treat</h3>
+                    <p>Target concerns with serums & actives.</p>
+                  </div>
+                </div>
+                <div class="routine-step">
+                  <span class="step-number">3</span>
+                  <div>
+                    <h3>Protect</h3>
+                    <p>Seal in moisture and shield with SPF.</p>
+                  </div>
+                </div>
+              </div>
+              <p class="routine-note">
+                Tip: Introduce only one new active ingredient at a time and
+                patch test first.
+              </p>
+            </form>
+          </div>
+          <div class="routine-img-wrap">
+            <img
+              src="https://images.pexels.com/photos/3737821/pexels-photo-3737821.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Flatlay of skincare routine"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="section section-muted">
+        <div class="container">
+          <div class="section-header">
+            <h2>What our customers say</h2>
+            <p>Real results from real people.</p>
+          </div>
+          <div class="testimonial-grid">
+            <article class="testimonial-card">
+              <p>
+                “My acne cleared up in 6 weeks. The routine guide made it so
+                easy to choose what actually works for oily skin.”
+              </p>
+              <span class="testimonial-name">Aanya, 23</span>
+            </article>
+            <article class="testimonial-card">
+              <p>
+                “Love how lightweight the sunscreen is. No white cast, no
+                stickiness – just healthy glow.”
+              </p>
+              <span class="testimonial-name">Rohan, 28</span>
+            </article>
+            <article class="testimonial-card">
+              <p>
+                “Finally found a moisturiser that doesn’t irritate my
+                sensitive skin. My barrier has never felt better.”
+              </p>
+              <span class="testimonial-name">Meera, 31</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section">
+        <div class="container about-grid">
+          <div>
+            <h2>Clean, conscious & science-backed.</h2>
+            <p>
+              GlowCare brings together dermatologist-tested, cruelty-free
+              skincare from trusted global and Indian brands. Every product is
+              ingredient-transparency checked, so you always know what touches
+              your skin.
+            </p>
+            <ul class="about-list">
+              <li>Formulated without parabens, SLS/SLES and mineral oil.</li>
+              <li>Recycled & recyclable packaging where possible.</li>
+              <li>Backed by clinical studies and authentic customer reviews.</li>
+            </ul>
+          </div>
+          <div class="about-img-wrap">
+            <img
+              src="https://images.pexels.com/photos/3738348/pexels-photo-3738348.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Scientist testing skincare formula"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT / FOOTER -->
+      <section id="contact" class="section section-muted">
+        <div class="container contact-grid">
+          <div>
+            <h2>Let’s talk skincare</h2>
+            <p>
+              Have questions about ingredients, routines or orders? Drop your
+              email and we’ll get back within 24 hours.
+            </p>
+            <form class="contact-form" onsubmit="return false;">
+              <input type="email" placeholder="Enter your email" required />
+              <textarea placeholder="How can we help?" rows="3"></textarea>
+              <button class="btn-primary full">Submit</button>
+            </form>
+          </div>
+          <div class="contact-meta">
+            <h3>Need quick help?</h3>
+            <p>Email: care@glowcarebeauty.com</p>
+            <p>Instagram: @glowcarebeauty</p>
+            <p>Timings: 10 AM – 7 PM (IST), Mon–Sat</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2025 GlowCare Beauty. For demo use only. Images by Pexels.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
